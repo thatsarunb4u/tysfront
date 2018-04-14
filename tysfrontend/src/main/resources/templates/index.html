@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>TechYourSpace</title>
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/business-frontpage.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg bg-white">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="img/logo.png" />
+				</a>
+				<form class="form-inline mr-auto">
+					<div class="input-group">
+						<button class="btn btn-outline-dark search-btn border border-right-0" type="button">
+							<i class="fa fa-search"></i>
+						</button>
+						<input type="text" class="form-control search-form border border-left-0" placeholder="Search Products">
+					</div>
+				</form>
+				<div class="d-none d-sm-block">
+					<img src="img/icon-fb.png" />
+					<img src="img/icon-ig.png" />
+					<img src="img/icon-linkedin.png" />
+					<img src="img/icon-tw.png" />
+				</div>
+			</div>
+		</nav>
+		<div class="navbar navbar-expand-lg bg-white">
+			<div class="container">
+				<button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">☰</button>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav mr-auto">
+						<li class="dropdown menu-large nav-item" style="font-family: SegoePrint;"> <a href="#" class="nav-link font-weight-bold" data-toggle="dropdown">TechBlog</a>
+							<ul class="dropdown-menu megamenu" style="font-family: AvenirRegular;">
+								<div class="row">
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header font-bold"><a href="techyourhome-living.html">Living</a></li>
+											<li><a href="#">Product Type</a></li>
+											<li><a href="#">Control System</a></li>
+											<li><a href="#">Motion Sensor</a></li>
+											<li><a href="#">Door/Window Sensor</a></li>
+											<li><a href="#">Robotic Vacuum Cleaner</a></li>
+											<li><a href="#">Smart Scale</a></li>
+											<li><a href="#">Smart Trolley Bag</a></li>
+											<li><a href="#">Activity Tracker</a></li>
+											<li><a href="#">Pet Feeder</a></li>
+											<li><a href="#">Smart Cup</a></li>
+											<li><a href="#">Robot Companion</a></li>
+											<li><a href="#">Smart Thermostat</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">Kitchen</li>
+											<li><a href="#">Menu Kitchen 1</a></li>
+											<li><a href="#">Menu Kitchen 2</a></li>
+											<li><a href="#">Menu Kitchen 3</a></li>
+											<li><a href="#">Menu Kitchen 4</a></li>
+											<li><a href="#">Menu Kitchen 5</a></li>
+											<li><a href="#">Menu Kitchen 6</a></li>
+											<li><a href="#">Menu Kitchen 7</a></li>
+											<li><a href="#">Menu Kitchen 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">Lobby</li>
+											<li><a href="#">Menu Lobby 1</a></li>
+											<li><a href="#">Menu Lobby 2</a></li>
+											<li><a href="#">Menu Lobby 3</a></li>
+											<li><a href="#">Menu Lobby 4</a></li>
+											<li><a href="#">Menu Lobby 5</a></li>
+											<li><a href="#">Menu Lobby 6</a></li>
+											<li><a href="#">Menu Lobby 7</a></li>
+											<li><a href="#">Menu Lobby 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">BedRoom</li>
+											<li><a href="#">Menu BedRoom 1</a></li>
+											<li><a href="#">Menu BedRoom 2</a></li>
+											<li><a href="#">Menu BedRoom 3</a></li>
+											<li><a href="#">Menu BedRoom 4</a></li>
+											<li><a href="#">Menu BedRoom 5</a></li>
+											<li><a href="#">Menu BedRoom 6</a></li>
+											<li><a href="#">Menu BedRoom 7</a></li>
+											<li><a href="#">Menu BedRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">KidsRoom</li>
+											<li><a href="#">Menu KidsRoom 1</a></li>
+											<li><a href="#">Menu KidsRoom 2</a></li>
+											<li><a href="#">Menu KidsRoom 3</a></li>
+											<li><a href="#">Menu KidsRoom 4</a></li>
+											<li><a href="#">Menu KidsRoom 5</a></li>
+											<li><a href="#">Menu KidsRoom 6</a></li>
+											<li><a href="#">Menu KidsRoom 7</a></li>
+											<li><a href="#">Menu KidsRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">PetsRoom</li>
+											<li><a href="#">Menu PetsRoom 1</a></li>
+											<li><a href="#">Menu PetsRoom 2</a></li>
+											<li><a href="#">Menu PetsRoom 3</a></li>
+											<li><a href="#">Menu PetsRoom 4</a></li>
+											<li><a href="#">Menu PetsRoom 5</a></li>
+											<li><a href="#">Menu PetsRoom 6</a></li>
+											<li><a href="#">Menu PetsRoom 7</a></li>
+											<li><a href="#">Menu PetsRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">RestRoom</li>
+											<li><a href="#">Menu RestRoom 1</a></li>
+											<li><a href="#">Menu RestRoom 2</a></li>
+											<li><a href="#">Menu RestRoom 3</a></li>
+											<li><a href="#">Menu RestRoom 4</a></li>
+											<li><a href="#">Menu RestRoom 5</a></li>
+											<li><a href="#">Menu RestRoom 6</a></li>
+											<li><a href="#">Menu RestRoom 7</a></li>
+											<li><a href="#">Menu RestRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">Garden</li>
+											<li><a href="#">Menu Garden 1</a></li>
+											<li><a href="#">Menu Garden 2</a></li>
+											<li><a href="#">Menu Garden 3</a></li>
+											<li><a href="#">Menu Garden 4</a></li>
+											<li><a href="#">Menu Garden 5</a></li>
+											<li><a href="#">Menu Garden 6</a></li>
+											<li><a href="#">Menu Garden 7</a></li>
+											<li><a href="#">Menu Garden 8</a></li>
+										</ul>
+									</li>
+								</div>
+							</ul>
+						</li>
+						<li class="dropdown menu-large nav-item"> <a href="#" class="nav-link" data-toggle="dropdown">TechYourHome</a>
+							<ul class="dropdown-menu megamenu">
+								<div class="row">
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header font-bold"><a href="techyourhome-living.html">Living</a></li>
+											<li><a href="#">Product Type</a></li>
+											<li><a href="#">Control System</a></li>
+											<li><a href="#">Motion Sensor</a></li>
+											<li><a href="#">Door/Window Sensor</a></li>
+											<li><a href="#">Robotic Vacuum Cleaner</a></li>
+											<li><a href="#">Smart Scale</a></li>
+											<li><a href="#">Smart Trolley Bag</a></li>
+											<li><a href="#">Activity Tracker</a></li>
+											<li><a href="#">Pet Feeder</a></li>
+											<li><a href="#">Smart Cup</a></li>
+											<li><a href="#">Robot Companion</a></li>
+											<li><a href="#">Smart Thermostat</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">Kitchen</li>
+											<li><a href="#">Menu Kitchen 1</a></li>
+											<li><a href="#">Menu Kitchen 2</a></li>
+											<li><a href="#">Menu Kitchen 3</a></li>
+											<li><a href="#">Menu Kitchen 4</a></li>
+											<li><a href="#">Menu Kitchen 5</a></li>
+											<li><a href="#">Menu Kitchen 6</a></li>
+											<li><a href="#">Menu Kitchen 7</a></li>
+											<li><a href="#">Menu Kitchen 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">Lobby</li>
+											<li><a href="#">Menu Lobby 1</a></li>
+											<li><a href="#">Menu Lobby 2</a></li>
+											<li><a href="#">Menu Lobby 3</a></li>
+											<li><a href="#">Menu Lobby 4</a></li>
+											<li><a href="#">Menu Lobby 5</a></li>
+											<li><a href="#">Menu Lobby 6</a></li>
+											<li><a href="#">Menu Lobby 7</a></li>
+											<li><a href="#">Menu Lobby 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">BedRoom</li>
+											<li><a href="#">Menu BedRoom 1</a></li>
+											<li><a href="#">Menu BedRoom 2</a></li>
+											<li><a href="#">Menu BedRoom 3</a></li>
+											<li><a href="#">Menu BedRoom 4</a></li>
+											<li><a href="#">Menu BedRoom 5</a></li>
+											<li><a href="#">Menu BedRoom 6</a></li>
+											<li><a href="#">Menu BedRoom 7</a></li>
+											<li><a href="#">Menu BedRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">KidsRoom</li>
+											<li><a href="#">Menu KidsRoom 1</a></li>
+											<li><a href="#">Menu KidsRoom 2</a></li>
+											<li><a href="#">Menu KidsRoom 3</a></li>
+											<li><a href="#">Menu KidsRoom 4</a></li>
+											<li><a href="#">Menu KidsRoom 5</a></li>
+											<li><a href="#">Menu KidsRoom 6</a></li>
+											<li><a href="#">Menu KidsRoom 7</a></li>
+											<li><a href="#">Menu KidsRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">PetsRoom</li>
+											<li><a href="#">Menu PetsRoom 1</a></li>
+											<li><a href="#">Menu PetsRoom 2</a></li>
+											<li><a href="#">Menu PetsRoom 3</a></li>
+											<li><a href="#">Menu PetsRoom 4</a></li>
+											<li><a href="#">Menu PetsRoom 5</a></li>
+											<li><a href="#">Menu PetsRoom 6</a></li>
+											<li><a href="#">Menu PetsRoom 7</a></li>
+											<li><a href="#">Menu PetsRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">RestRoom</li>
+											<li><a href="#">Menu RestRoom 1</a></li>
+											<li><a href="#">Menu RestRoom 2</a></li>
+											<li><a href="#">Menu RestRoom 3</a></li>
+											<li><a href="#">Menu RestRoom 4</a></li>
+											<li><a href="#">Menu RestRoom 5</a></li>
+											<li><a href="#">Menu RestRoom 6</a></li>
+											<li><a href="#">Menu RestRoom 7</a></li>
+											<li><a href="#">Menu RestRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">Garden</li>
+											<li><a href="#">Menu Garden 1</a></li>
+											<li><a href="#">Menu Garden 2</a></li>
+											<li><a href="#">Menu Garden 3</a></li>
+											<li><a href="#">Menu Garden 4</a></li>
+											<li><a href="#">Menu Garden 5</a></li>
+											<li><a href="#">Menu Garden 6</a></li>
+											<li><a href="#">Menu Garden 7</a></li>
+											<li><a href="#">Menu Garden 8</a></li>
+										</ul>
+									</li>
+								</div>
+							</ul>
+						</li>
+						<li class="dropdown menu-large nav-item"> <a href="#" class="nav-link" data-toggle="dropdown">TechYourOffice</a>
+							<ul class="dropdown-menu megamenu">
+								<div class="row">
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header font-bold"><a href="techyourhome-living.html">Living</a></li>
+											<li><a href="#">Product Type</a></li>
+											<li><a href="#">Control System</a></li>
+											<li><a href="#">Motion Sensor</a></li>
+											<li><a href="#">Door/Window Sensor</a></li>
+											<li><a href="#">Robotic Vacuum Cleaner</a></li>
+											<li><a href="#">Smart Scale</a></li>
+											<li><a href="#">Smart Trolley Bag</a></li>
+											<li><a href="#">Activity Tracker</a></li>
+											<li><a href="#">Pet Feeder</a></li>
+											<li><a href="#">Smart Cup</a></li>
+											<li><a href="#">Robot Companion</a></li>
+											<li><a href="#">Smart Thermostat</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">Kitchen</li>
+											<li><a href="#">Menu Kitchen 1</a></li>
+											<li><a href="#">Menu Kitchen 2</a></li>
+											<li><a href="#">Menu Kitchen 3</a></li>
+											<li><a href="#">Menu Kitchen 4</a></li>
+											<li><a href="#">Menu Kitchen 5</a></li>
+											<li><a href="#">Menu Kitchen 6</a></li>
+											<li><a href="#">Menu Kitchen 7</a></li>
+											<li><a href="#">Menu Kitchen 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">Lobby</li>
+											<li><a href="#">Menu Lobby 1</a></li>
+											<li><a href="#">Menu Lobby 2</a></li>
+											<li><a href="#">Menu Lobby 3</a></li>
+											<li><a href="#">Menu Lobby 4</a></li>
+											<li><a href="#">Menu Lobby 5</a></li>
+											<li><a href="#">Menu Lobby 6</a></li>
+											<li><a href="#">Menu Lobby 7</a></li>
+											<li><a href="#">Menu Lobby 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">BedRoom</li>
+											<li><a href="#">Menu BedRoom 1</a></li>
+											<li><a href="#">Menu BedRoom 2</a></li>
+											<li><a href="#">Menu BedRoom 3</a></li>
+											<li><a href="#">Menu BedRoom 4</a></li>
+											<li><a href="#">Menu BedRoom 5</a></li>
+											<li><a href="#">Menu BedRoom 6</a></li>
+											<li><a href="#">Menu BedRoom 7</a></li>
+											<li><a href="#">Menu BedRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">KidsRoom</li>
+											<li><a href="#">Menu KidsRoom 1</a></li>
+											<li><a href="#">Menu KidsRoom 2</a></li>
+											<li><a href="#">Menu KidsRoom 3</a></li>
+											<li><a href="#">Menu KidsRoom 4</a></li>
+											<li><a href="#">Menu KidsRoom 5</a></li>
+											<li><a href="#">Menu KidsRoom 6</a></li>
+											<li><a href="#">Menu KidsRoom 7</a></li>
+											<li><a href="#">Menu KidsRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">PetsRoom</li>
+											<li><a href="#">Menu PetsRoom 1</a></li>
+											<li><a href="#">Menu PetsRoom 2</a></li>
+											<li><a href="#">Menu PetsRoom 3</a></li>
+											<li><a href="#">Menu PetsRoom 4</a></li>
+											<li><a href="#">Menu PetsRoom 5</a></li>
+											<li><a href="#">Menu PetsRoom 6</a></li>
+											<li><a href="#">Menu PetsRoom 7</a></li>
+											<li><a href="#">Menu PetsRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">RestRoom</li>
+											<li><a href="#">Menu RestRoom 1</a></li>
+											<li><a href="#">Menu RestRoom 2</a></li>
+											<li><a href="#">Menu RestRoom 3</a></li>
+											<li><a href="#">Menu RestRoom 4</a></li>
+											<li><a href="#">Menu RestRoom 5</a></li>
+											<li><a href="#">Menu RestRoom 6</a></li>
+											<li><a href="#">Menu RestRoom 7</a></li>
+											<li><a href="#">Menu RestRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">Garden</li>
+											<li><a href="#">Menu Garden 1</a></li>
+											<li><a href="#">Menu Garden 2</a></li>
+											<li><a href="#">Menu Garden 3</a></li>
+											<li><a href="#">Menu Garden 4</a></li>
+											<li><a href="#">Menu Garden 5</a></li>
+											<li><a href="#">Menu Garden 6</a></li>
+											<li><a href="#">Menu Garden 7</a></li>
+											<li><a href="#">Menu Garden 8</a></li>
+										</ul>
+									</li>
+								</div>
+							</ul>
+						</li>
+						<li class="dropdown menu-large nav-item"> <a href="#" class="nav-link" data-toggle="dropdown">TechElderCare</a>
+							<ul class="dropdown-menu megamenu">
+								<div class="row">
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header font-bold"><a href="techyourhome-living.html">Living</a></li>
+											<li><a href="#">Product Type</a></li>
+											<li><a href="#">Control System</a></li>
+											<li><a href="#">Motion Sensor</a></li>
+											<li><a href="#">Door/Window Sensor</a></li>
+											<li><a href="#">Robotic Vacuum Cleaner</a></li>
+											<li><a href="#">Smart Scale</a></li>
+											<li><a href="#">Smart Trolley Bag</a></li>
+											<li><a href="#">Activity Tracker</a></li>
+											<li><a href="#">Pet Feeder</a></li>
+											<li><a href="#">Smart Cup</a></li>
+											<li><a href="#">Robot Companion</a></li>
+											<li><a href="#">Smart Thermostat</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">Kitchen</li>
+											<li><a href="#">Menu Kitchen 1</a></li>
+											<li><a href="#">Menu Kitchen 2</a></li>
+											<li><a href="#">Menu Kitchen 3</a></li>
+											<li><a href="#">Menu Kitchen 4</a></li>
+											<li><a href="#">Menu Kitchen 5</a></li>
+											<li><a href="#">Menu Kitchen 6</a></li>
+											<li><a href="#">Menu Kitchen 7</a></li>
+											<li><a href="#">Menu Kitchen 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">Lobby</li>
+											<li><a href="#">Menu Lobby 1</a></li>
+											<li><a href="#">Menu Lobby 2</a></li>
+											<li><a href="#">Menu Lobby 3</a></li>
+											<li><a href="#">Menu Lobby 4</a></li>
+											<li><a href="#">Menu Lobby 5</a></li>
+											<li><a href="#">Menu Lobby 6</a></li>
+											<li><a href="#">Menu Lobby 7</a></li>
+											<li><a href="#">Menu Lobby 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">BedRoom</li>
+											<li><a href="#">Menu BedRoom 1</a></li>
+											<li><a href="#">Menu BedRoom 2</a></li>
+											<li><a href="#">Menu BedRoom 3</a></li>
+											<li><a href="#">Menu BedRoom 4</a></li>
+											<li><a href="#">Menu BedRoom 5</a></li>
+											<li><a href="#">Menu BedRoom 6</a></li>
+											<li><a href="#">Menu BedRoom 7</a></li>
+											<li><a href="#">Menu BedRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">KidsRoom</li>
+											<li><a href="#">Menu KidsRoom 1</a></li>
+											<li><a href="#">Menu KidsRoom 2</a></li>
+											<li><a href="#">Menu KidsRoom 3</a></li>
+											<li><a href="#">Menu KidsRoom 4</a></li>
+											<li><a href="#">Menu KidsRoom 5</a></li>
+											<li><a href="#">Menu KidsRoom 6</a></li>
+											<li><a href="#">Menu KidsRoom 7</a></li>
+											<li><a href="#">Menu KidsRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">PetsRoom</li>
+											<li><a href="#">Menu PetsRoom 1</a></li>
+											<li><a href="#">Menu PetsRoom 2</a></li>
+											<li><a href="#">Menu PetsRoom 3</a></li>
+											<li><a href="#">Menu PetsRoom 4</a></li>
+											<li><a href="#">Menu PetsRoom 5</a></li>
+											<li><a href="#">Menu PetsRoom 6</a></li>
+											<li><a href="#">Menu PetsRoom 7</a></li>
+											<li><a href="#">Menu PetsRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">RestRoom</li>
+											<li><a href="#">Menu RestRoom 1</a></li>
+											<li><a href="#">Menu RestRoom 2</a></li>
+											<li><a href="#">Menu RestRoom 3</a></li>
+											<li><a href="#">Menu RestRoom 4</a></li>
+											<li><a href="#">Menu RestRoom 5</a></li>
+											<li><a href="#">Menu RestRoom 6</a></li>
+											<li><a href="#">Menu RestRoom 7</a></li>
+											<li><a href="#">Menu RestRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">Garden</li>
+											<li><a href="#">Menu Garden 1</a></li>
+											<li><a href="#">Menu Garden 2</a></li>
+											<li><a href="#">Menu Garden 3</a></li>
+											<li><a href="#">Menu Garden 4</a></li>
+											<li><a href="#">Menu Garden 5</a></li>
+											<li><a href="#">Menu Garden 6</a></li>
+											<li><a href="#">Menu Garden 7</a></li>
+											<li><a href="#">Menu Garden 8</a></li>
+										</ul>
+									</li>
+								</div>
+							</ul>
+						</li>
+						<li class="dropdown menu-large nav-item"> <a href="#" class="nav-link" data-toggle="dropdown">TechYourBot</a>
+							<ul class="dropdown-menu megamenu">
+								<div class="row">
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header font-bold"><a href="techyourhome-living.html">Living</a></li>
+											<li><a href="#">Product Type</a></li>
+											<li><a href="#">Control System</a></li>
+											<li><a href="#">Motion Sensor</a></li>
+											<li><a href="#">Door/Window Sensor</a></li>
+											<li><a href="#">Robotic Vacuum Cleaner</a></li>
+											<li><a href="#">Smart Scale</a></li>
+											<li><a href="#">Smart Trolley Bag</a></li>
+											<li><a href="#">Activity Tracker</a></li>
+											<li><a href="#">Pet Feeder</a></li>
+											<li><a href="#">Smart Cup</a></li>
+											<li><a href="#">Robot Companion</a></li>
+											<li><a href="#">Smart Thermostat</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">Kitchen</li>
+											<li><a href="#">Menu Kitchen 1</a></li>
+											<li><a href="#">Menu Kitchen 2</a></li>
+											<li><a href="#">Menu Kitchen 3</a></li>
+											<li><a href="#">Menu Kitchen 4</a></li>
+											<li><a href="#">Menu Kitchen 5</a></li>
+											<li><a href="#">Menu Kitchen 6</a></li>
+											<li><a href="#">Menu Kitchen 7</a></li>
+											<li><a href="#">Menu Kitchen 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">Lobby</li>
+											<li><a href="#">Menu Lobby 1</a></li>
+											<li><a href="#">Menu Lobby 2</a></li>
+											<li><a href="#">Menu Lobby 3</a></li>
+											<li><a href="#">Menu Lobby 4</a></li>
+											<li><a href="#">Menu Lobby 5</a></li>
+											<li><a href="#">Menu Lobby 6</a></li>
+											<li><a href="#">Menu Lobby 7</a></li>
+											<li><a href="#">Menu Lobby 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">BedRoom</li>
+											<li><a href="#">Menu BedRoom 1</a></li>
+											<li><a href="#">Menu BedRoom 2</a></li>
+											<li><a href="#">Menu BedRoom 3</a></li>
+											<li><a href="#">Menu BedRoom 4</a></li>
+											<li><a href="#">Menu BedRoom 5</a></li>
+											<li><a href="#">Menu BedRoom 6</a></li>
+											<li><a href="#">Menu BedRoom 7</a></li>
+											<li><a href="#">Menu BedRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">KidsRoom</li>
+											<li><a href="#">Menu KidsRoom 1</a></li>
+											<li><a href="#">Menu KidsRoom 2</a></li>
+											<li><a href="#">Menu KidsRoom 3</a></li>
+											<li><a href="#">Menu KidsRoom 4</a></li>
+											<li><a href="#">Menu KidsRoom 5</a></li>
+											<li><a href="#">Menu KidsRoom 6</a></li>
+											<li><a href="#">Menu KidsRoom 7</a></li>
+											<li><a href="#">Menu KidsRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">PetsRoom</li>
+											<li><a href="#">Menu PetsRoom 1</a></li>
+											<li><a href="#">Menu PetsRoom 2</a></li>
+											<li><a href="#">Menu PetsRoom 3</a></li>
+											<li><a href="#">Menu PetsRoom 4</a></li>
+											<li><a href="#">Menu PetsRoom 5</a></li>
+											<li><a href="#">Menu PetsRoom 6</a></li>
+											<li><a href="#">Menu PetsRoom 7</a></li>
+											<li><a href="#">Menu PetsRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">RestRoom</li>
+											<li><a href="#">Menu RestRoom 1</a></li>
+											<li><a href="#">Menu RestRoom 2</a></li>
+											<li><a href="#">Menu RestRoom 3</a></li>
+											<li><a href="#">Menu RestRoom 4</a></li>
+											<li><a href="#">Menu RestRoom 5</a></li>
+											<li><a href="#">Menu RestRoom 6</a></li>
+											<li><a href="#">Menu RestRoom 7</a></li>
+											<li><a href="#">Menu RestRoom 8</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-item">
+										<ul>
+											<li class="dropdown-header">Garden</li>
+											<li><a href="#">Menu Garden 1</a></li>
+											<li><a href="#">Menu Garden 2</a></li>
+											<li><a href="#">Menu Garden 3</a></li>
+											<li><a href="#">Menu Garden 4</a></li>
+											<li><a href="#">Menu Garden 5</a></li>
+											<li><a href="#">Menu Garden 6</a></li>
+											<li><a href="#">Menu Garden 7</a></li>
+											<li><a href="#">Menu Garden 8</a></li>
+										</ul>
+									</li>
+								</div>
+							</ul>
+						</li>
+						<li class="dropdown menu-large nav-item"> 
+							<a href="about.html" class="nav-link">About</a>
+						</li>
+						<li class="dropdown menu-large nav-item"> 
+							<a href="joinus.html" class="nav-link">Join Us</a>
+						</li>
+						<li class="dropdown menu-large nav-item"> 
+							<a href="contact.html" class="nav-link">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<header class="business-header">
+			<div class="container">
+				<div class="row">
+				    <div class="col-lg-12 img-center-div">
+						<a href="#" onclick="openNav()">
+							<img src="img/play.png" class="img-center" />
+						</a>
+				    </div>
+				</div>
+			</div>
+		</header>
+		<div class="container">
+			<div id="myNav" class="overlay">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="overlay-content">
+				<div>
+					<iframe width="100%" height="350" src="https://www.youtube.com/embed/TTJs3evqGwk" frameborder="0" allowfullscreen></iframe>
+				</div>
+			  </div>
+			</div>
+		    <div class="row" style="padding-bottom:40px;">
+				<div class="col-sm-12" style="padding-top:20px;">
+					<span class="line">
+						<h2><span>Featured On</span></h2>
+					</span>​
+					<img src="img/featured.png" class="img-fluid mx-auto d-block" />
+				</div>
+			</div>		  
+			<div class="row">
+				<div class="col-sm-8">
+					<span class="line">
+						<h2><span>Explore Cool & Trendy Smart Products</span></h2>
+					</span>​
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="card">
+								<a href="/techyourhome">
+									<img class="card-img-top" src="img/thumb-techyourhome.png" alt="">
+									<div class="text-white text-left-bottom">
+										Learn More >
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="card">
+								<a href="techyouroffice.html">
+									<img class="card-img-top" src="img/thumb-techyouroffice.png" alt="">
+									<div class="text-white text-left-bottom">
+										Learn More >
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<br/>
+					<span class="line">
+						<h2><span>Other Stuff We Are Into</span></h2>
+					</span>​
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="card">
+								<a href="techeldercare.html">
+									<img class="card-img-top" src="img/TechYourElder.jpg" alt="">
+									<div class="text-white text-left-bottom">
+										Learn More >
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="card">
+								<a href="techyourbot.html">
+									<img class="card-img-top" src="img/TechYourBot_image.jpg" alt="">
+									<div class="text-white text-left-bottom">
+										Learn More >
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<span class="line">
+						<h2><span style="font-family:SegoePrint;">TechBlog</span></h2>
+					</span>​
+					<div id="carouselExampleControls" class="carousel vert slide" data-ride="carousel" data-interval="2000">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="col carousel-distance">
+									<img class="d-block mx-auto img-fluid" src="img/home-slide_1.png" alt="Third slide">
+									<h4 class="img-center text-white text-center">
+										<p><b>Services Robot</b></p>
+									</h4>
+								</div>
+								<div class="col carousel-distance">
+									<img class="d-block mx-auto img-fluid" src="img/home-slide_2.png" alt="Third slide">
+									<h4 class="img-center text-white text-center">
+										<p><b>Smart Luggage</b></p><p class="small">SMART WEIGHT SYSTEM<br>THE SERIES 2. 
+										<b>Read More</b>
+									</h4>
+								</div>
+								<div class="col carousel-distance">
+									<img class="d-block mx-auto img-fluid" src="img/home-slide_3.png" alt="Third slide">
+									<h4 class="img-center text-white text-center">
+										<p><b>Weather Sensor</b></p>
+									</h4>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="col carousel-distance">
+									<img class="d-block mx-auto img-fluid" src="img/home-slide_1.png" alt="Third slide">
+								</div>
+								<div class="col carousel-distance">
+									<img class="d-block mx-auto img-fluid" src="img/home-slide_2.png" alt="Third slide">
+								</div>
+								<div class="col carousel-distance">
+									<img class="d-block mx-auto img-fluid" src="img/home-slide_3.png" alt="Third slide">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row" style="padding:40px 0;">
+				<div class="col-sm-12">
+					<span class="line">
+						<h2><span>Finding The Right Tech Solution With Unique Experience</span></h2>
+					</span>​
+					<div class="row">
+						<div class="col-sm-4">
+							<img src="img/risk-free.png" class="mx-auto d-block" style="margin-bottom:20px;" />
+							<p class="text-center">
+								Risk-free
+							</p>
+							<p class="text-center">
+								We’re confident you’ll love our TechYourSpace product, so we give you 30 days to try it on us or 
+								we'll pick it up and give you a full refund.
+							</p>
+						</div>
+						<div class="col-sm-4">
+							<img src="img/free-shipping.png" class="mx-auto d-block" style="margin-bottom:20px;" />
+							<p class="text-center">
+								Free shipping & returns
+							</p>
+							<p class="text-center">
+								Free shipping is included with every order.
+							</p>
+						</div>
+						<div class="col-sm-4">
+							<img src="img/cs.png" class="mx-auto d-block" style="margin-bottom:20px;" />
+							<p class="text-center">
+								Exceptional customer service
+							</p>
+							<p class="text-center">
+								We’ve got more than 100 tech specialists available seven days a week to answer every question.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="navbar navbar-expand-lg bg-light text-center" style="padding:15px;">
+			<div class="col-sm-6 subs-text">
+				Get the latest news and don't miss any updates 
+			</div>
+			<div class="col-sm-6 text-left">
+				<form class="form-inline">
+					<div class="input-group">
+						<input type="text" class="form-control search-btn border border-right-0" placeholder="Type your email here">
+						<button class="btn btn-outline-dark search-form border border-left-0 subs-btn" type="button">
+							Subscribe
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<footer class="py-5 bg-white font-footer">			
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 subs-text-left">
+						<div>
+							<a href="about.html" class="text-dark">About Us</a> | 
+							<a href="careers.html" class="text-dark">Careers</a> | 
+							<a href="contact.html" class="text-dark">Contact</a> | 
+							<a href="techyourblog.html" class="text-dark">Blog</a>
+						</div>
+					</div>
+					<div class="col-sm-4 subs-text-center">
+						<div>
+							Let's Connect!
+						</div>
+						<div class="d-sm-block">
+							<img src="img/icon-fb.png" />
+							<img src="img/icon-ig.png" />
+							<img src="img/icon-linkedin.png" />
+							<img src="img/icon-tw.png" />
+						</div>
+					</div>
+					<div class="col-sm-4 subs-text-right">
+						<i class="fa fa-envelope div-fa text-center"></i> hello.digipasar.com<br/>
+						<i class="fa fa-map-marker div-fa text-center" style="font-size:22px;"></i> 73 Syed Alwi Road,<br/>
+						<i class="fa div-fa"></i> Singapore 207652
+					</div>
+					<div class="subs-text-left col-sm-12 col-md-4">
+						Copyright 2018. All rights reserved.
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/menu-dropdown.js"></script>	
+		<script src="js/video.js"></script>	
+		<script>
+			function openNav() {
+				document.getElementById("myNav").style.width = "100%";
+			}
+
+			/* Close when someone clicks on the "x" symbol inside the overlay */
+			function closeNav() {
+				document.getElementById("myNav").style.width = "0%";
+			}
+		</script>
+	</body>
+</html>
